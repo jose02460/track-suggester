@@ -1,20 +1,20 @@
 $(document).ready(function() {
 //  $('#actor-Form').validator();
-    $("form#actor-Form").validator().on('submit', function(event) {
+    $("form#track-Form").validator().on('submit', function(event) {
       var age = parseInt($("#inputAge").val());
-      var food = $("#food").val();
+      var food = $("#question").val();
       var sex = $("input:radio[name=sex]:checked").val();
-      if(age >= 30 && sex === "male" && (food === "Sushi" || food === "Pizza" || food === "Noodles")){
+      if((question === "Sushi" || question === "Pizza" || question === "Noodles")){
         //$(".animalName-title").text(animal);
         $("#actors").show();
-        $("#angelinaJ").hide();
-        $("#leonardoD").show();
+        $("#ruby").hide();
+        $("#c#").show();
       }
-      if(age >= 30 && sex === "female" && (food === "Sushi" || food === "Pizza" || food === "Noodles")){
+      if(question === "Sushi" || question === "Pizza" || question === "Noodles")){
         //$(".animalName-title").text(animal);
         $("#actors").show();
-        $("#leonardoD").hide();
-        $("#angelinaJ").show();
+        $("#c#").hide();
+        $("#ruby").show();
       }
       event.preventDefault();
   });
