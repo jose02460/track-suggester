@@ -8,12 +8,12 @@ $(document).ready(function() {
         //$(".animalName-title").text(animal);
         $("#actors").show();
         $("#ruby").hide();
-        $("#c#").show();
+        $("#cc").show();
       }
-      if(question === "Sushi" || question === "Pizza" || question === "Noodles")){
+      if(question === "yes" || question === "yes" || question === "yes" || question === "yes" question === "yes")){
         //$(".animalName-title").text(animal);
         $("#actors").show();
-        $("#c#").hide();
+        $("#cc").hide();
         $("#ruby").show();
       }
       event.preventDefault();
