@@ -1,5 +1,5 @@
 $(document).ready(function() {
-//  $('#actor-Form').validator();
+//  $('#track-Form').validator();
     $("form#track-Form").validator().on('submit', function(event) {
       if((question === "Yes" || question === "Yes" || question === "No" || question === "No" || question === "No")){
         $("#track").show();
