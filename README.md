@@ -6,9 +6,8 @@
 
 ## Webpage that allows you to find a track to learn based on the questions that are answered.
 
-_This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. _
-
-file:///Users/Guest/Desktop/track-suggester/index.html
+This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. _
+file:///Users/joserodriguez/Desktop/track-suggester/track-suggester/index.html
 ## Setup/Installation Requirements
 
  clone repository https://github.com/jose02460/track-suggester.git
