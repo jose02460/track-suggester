@@ -7,23 +7,27 @@ $(document).ready(function() {
       var question4 = $("#question4").val();
       var question5 = $("#question5").val();
 
-      if(question1 === "Yes" || question2 === "Yes" || question3 === "No" || question4 === "No" || question5 === "No") {
-        $("#track").show();
-        $("#ruby").show();
-        $("#java").hide();
-        $("#cc").hide();
-      };
-      if(question1 === "Yes" || question2 === "Yes" || question3 === "Yes" || question4 === "Yes" || question5 === "Yes") {
+       if(question1 === "1" || question2 === "1" || question3 === "0" || question4 === "0" || question5 === "0") {
+         $("#track").show();
+         $("#ruby").show();
+         $("#java").hide();
+         $("#cc").hide();
+       }
+
+      else if(question1 === "1" || question2 === "1" || question3 === "1" || question4 === "1" || question5 === "1") {
         $("#track").show();
         $("#ruby").hide();
         $("#java").show();
         $("#cc").hide();
-      };
-      if(question1 === "Yes" || question2 === "Yes" || question3 === "Yes" || question4 === "Yes" || question5 === "No") {
+      }
+      else if(question1 === "1" || question2 === "1" || question3 === "1" || question4 === "1" || question5 === "0") {
         $("#track").show();
         $("#ruby").hide();
         $("#java").hide();
         $("#cc").show();
-      };
+      }
+      else {
+        alert("We did not find any matches for you!")
+      }
     });
   });
